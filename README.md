@@ -11,6 +11,10 @@
 An enterprise-grade medical co-pilot designed to solve the two biggest bottlenecks in global healthcare automation: **Language Barriers** and **LLM Security Risks**.
 
 
+<p align="center">
+  <video src="docs/demo.mp4" width="100%" controls></video>
+</p>
+
 ## ⚠️ The Problem
 
 1. **Language Barriers:** Most cutting-edge clinical systems expect English inputs, but doctors in LATAM, Asia, and Europe dictate notes in their native languages.
