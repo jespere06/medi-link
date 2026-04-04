@@ -4,9 +4,15 @@
 [![Secured by Auth0](https://img.shields.io/badge/Secured_by-Auth0_Token_Vault-eb5424.svg)](https://auth0.com/)
 [![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://opensource.org/licenses/Apache-2.0)
 
+<p align="center">
+  <img src="docs/medilink-hero.png" alt="MediLink AI Scribe — Zero-Trust Cross-Lingual Clinical Agent" width="100%" />
+</p>
+
 An enterprise-grade medical co-pilot designed to solve the two biggest bottlenecks in global healthcare automation: **Language Barriers** and **LLM Security Risks**.
 
 Built for the **Global AI Hackathon (Z.AI & Auth0)**.
+
+> 🎬 **[Watch the full demo video →](https://github.com/jespere06/medi-link/releases/tag/v1.0.0)**
 
 ## ⚠️ The Problem
 
@@ -32,6 +38,10 @@ MediLink acts as a **Cross-Lingual Zero-Trust Scribe**:
 ---
 
 ## 🏗️ Architecture
+
+<p align="center">
+  <img src="docs/medilink-banner.png" alt="MediLink Architecture — Zero-Trust Token Vault Flow" width="100%" />
+</p>
 
 1. **User Input:** Physician uploads an audio note (or types) in Spanish.
 2. **Transcription:** Audio is chunked and sent to Z.AI `glm-asr-2512`.
