@@ -10,9 +10,6 @@
 
 An enterprise-grade medical co-pilot designed to solve the two biggest bottlenecks in global healthcare automation: **Language Barriers** and **LLM Security Risks**.
 
-Built for the **Global AI Hackathon (Z.AI & Auth0)**.
-
-> 🎬 **[Watch the full demo video →](https://github.com/jespere06/medi-link/releases/tag/v1.0.0)**
 
 ## ⚠️ The Problem
 
