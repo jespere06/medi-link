@@ -56,8 +56,8 @@ MediLink acts as a **Cross-Lingual Zero-Trust Scribe**:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/jespere06/medis-link.git
-cd medis-link
+git clone https://github.com/jespere06/medi-link.git
+cd medi-link
 ```
 
 ### 2. Install dependencies
