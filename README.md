@@ -12,7 +12,7 @@ An enterprise-grade medical co-pilot designed to solve the two biggest bottlenec
 
 
 <p align="center">
-  <video src="docs/demo.mp4" width="100%" controls></video>
+  <video src="https://github.com/jespere06/medi-link/raw/main/docs/demo.mp4" width="100%" controls></video>
 </p>
 
 ## ⚠️ The Problem
