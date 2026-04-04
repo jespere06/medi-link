@@ -10,10 +10,8 @@
 
 An enterprise-grade medical co-pilot designed to solve the two biggest bottlenecks in global healthcare automation: **Language Barriers** and **LLM Security Risks**.
 
+https://github.com/user-attachments/assets/e8cbf632-7474-4ee8-8b98-2a6744315d9a
 
-<p align="center">
-  <video src="https://github.com/jespere06/medi-link/raw/main/docs/demo.mp4" width="100%" controls></video>
-</p>
 
 ## ⚠️ The Problem
 
