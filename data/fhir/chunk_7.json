@@ -1,0 +1,5306 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-c6c2-c36df5249eee",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-c6c2-c36df5249eee",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Hemoglobin [Mass/volume] in Blood"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 12.898,
+          "unit": "g/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-d5e7-e9bfbab32e92",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-d5e7-e9bfbab32e92",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4544-3",
+              "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+            }
+          ],
+          "text": "Hematocrit [Volume Fraction] of Blood by Automated count"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 37.145,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-1779-5b277f0d78f9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-1779-5b277f0d78f9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "787-2",
+              "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count"
+            }
+          ],
+          "text": "MCV [Entitic mean volume] in Red Blood Cells by Automated count"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 86.033,
+          "unit": "fL",
+          "system": "http://unitsofmeasure.org",
+          "code": "fL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-fae1-bb645453fdb9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-fae1-bb645453fdb9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "785-6",
+              "display": "MCH [Entitic mass] by Automated count"
+            }
+          ],
+          "text": "MCH [Entitic mass] by Automated count"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 32.662,
+          "unit": "pg",
+          "system": "http://unitsofmeasure.org",
+          "code": "pg"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-9c64-8210c628b900",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-9c64-8210c628b900",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "786-4",
+              "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count"
+            }
+          ],
+          "text": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 35.147,
+          "unit": "g/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-b833-77e61b10917f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-b833-77e61b10917f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "788-0",
+              "display": "Erythrocyte [DistWidth] in Blood by Automated count"
+            }
+          ],
+          "text": "Erythrocyte [DistWidth] in Blood by Automated count"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 12.377,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-ec08-443725a931a5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-ec08-443725a931a5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelets [#/volume] in Blood by Automated count"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 291.97,
+          "unit": "10*3/uL",
+          "system": "http://unitsofmeasure.org",
+          "code": "10*3/uL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-bc8a-cebfa5c6c010",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-bc8a-cebfa5c6c010",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 124.8,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-036e-4303e3ff104a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-036e-4303e3ff104a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "Urea nitrogen [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Urea nitrogen [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 19.38,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-2a8a-971fe84a9a0f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-2a8a-971fe84a9a0f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Creatinine [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 2.924,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-41f4-77b2dae7fc8d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-41f4-77b2dae7fc8d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "17861-6",
+              "display": "Calcium [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Calcium [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 9.41,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-15b0-45e7a802e151",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-15b0-45e7a802e151",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Sodium [Moles/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 140.49,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-c34d-c2eab8dae65a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-c34d-c2eab8dae65a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Potassium [Moles/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 4.66,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-e4d8-545355d870ca",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-e4d8-545355d870ca",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2075-0",
+              "display": "Chloride [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Chloride [Moles/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 110.64,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-edb3-7740ccac818b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-edb3-7740ccac818b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2028-9",
+              "display": "Carbon dioxide, total [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Carbon dioxide, total [Moles/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 22.88,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-9d3a-95a1432dee33",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-9d3a-95a1432dee33",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "33914-3",
+              "display": "Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M"
+            }
+          ],
+          "text": "Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 13.798,
+          "unit": "mL/min",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL/min"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-c50c-733187914b92",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-c50c-733187914b92",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2885-2",
+              "display": "Protein [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Protein [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 6.5458,
+          "unit": "g/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-a809-58dd01a83b3e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-a809-58dd01a83b3e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "Albumin [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Albumin [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 4.7107,
+          "unit": "g/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-bb77-170fa3aae39f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-bb77-170fa3aae39f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "Bilirubin.total [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Bilirubin.total [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 14.762,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-ff1e-91bd864825a0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-ff1e-91bd864825a0",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 114.62,
+          "unit": "U/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "U/L"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-bae7-88aa3096f9a2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-bae7-88aa3096f9a2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 31.582,
+          "unit": "U/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "U/L"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-ed32-1fe5568c27b4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-ed32-1fe5568c27b4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1920-8",
+              "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 2.4662,
+          "unit": "U/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "U/L"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-df4a-cbed142275e8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-df4a-cbed142275e8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "19123-9",
+              "display": "Magnesium [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Magnesium [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 2.0679,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-68f2-a0348a485c55",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-68f2-a0348a485c55",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2777-1",
+              "display": "Phosphate [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Phosphate [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 3.8518,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-a80d-5a1b9c724662",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-a80d-5a1b9c724662",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "5902-2",
+              "display": "Prothrombin time (PT)"
+            }
+          ],
+          "text": "Prothrombin time (PT)"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 9.6744,
+          "unit": "s",
+          "system": "http://unitsofmeasure.org",
+          "code": "s"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-d520-a278d454c3a6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-d520-a278d454c3a6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6301-6",
+              "display": "INR in Platelet poor plasma by Coagulation assay"
+            }
+          ],
+          "text": "INR in Platelet poor plasma by Coagulation assay"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 0.82498,
+          "unit": "{INR}",
+          "system": "http://unitsofmeasure.org",
+          "code": "{INR}"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-e9b1-0a2cfd32e104",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-e9b1-0a2cfd32e104",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3173-2",
+              "display": "aPTT in Blood by Coagulation assay"
+            }
+          ],
+          "text": "aPTT in Blood by Coagulation assay"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 32.356,
+          "unit": "s",
+          "system": "http://unitsofmeasure.org",
+          "code": "s"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-c3d4-848e0af78ece",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-c3d4-848e0af78ece",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2744-1",
+              "display": "pH of Arterial blood"
+            }
+          ],
+          "text": "pH of Arterial blood"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 7.0922,
+          "unit": "[pH]",
+          "system": "http://unitsofmeasure.org",
+          "code": "[pH]"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-aff7-61152d41689e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-aff7-61152d41689e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2019-8",
+              "display": "Carbon dioxide [Partial pressure] in Arterial blood"
+            }
+          ],
+          "text": "Carbon dioxide [Partial pressure] in Arterial blood"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 36.134,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-7c92-586b1a65a190",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-7c92-586b1a65a190",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2703-7",
+              "display": "Oxygen [Partial pressure] in Arterial blood"
+            }
+          ],
+          "text": "Oxygen [Partial pressure] in Arterial blood"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 99.606,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-0470-fbc7f0e60889",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-0470-fbc7f0e60889",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1960-4",
+              "display": "Bicarbonate [Moles/volume] in Arterial blood"
+            }
+          ],
+          "text": "Bicarbonate [Moles/volume] in Arterial blood"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 22.141,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-6fdc-1389e782f1ac",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-6fdc-1389e782f1ac",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-pulse-oximetry"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Arterial blood"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "59408-5",
+              "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+            }
+          ],
+          "text": "Oxygen saturation in Arterial blood"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 97,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-585a-59bcd836953a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-585a-59bcd836953a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2093-3",
+              "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 201.09,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-f242-29f2ba729ea7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-f242-29f2ba729ea7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2571-8",
+              "display": "Triglyceride [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Triglyceride [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 182.45,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-4127-d743bd549ccf",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-4127-d743bd549ccf",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "18262-6",
+              "display": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"
+            }
+          ],
+          "text": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 124.55,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-7d47-6f54031d4461",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-7d47-6f54031d4461",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2085-9",
+              "display": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T07:30:17-05:00",
+        "issued": "2019-07-05T07:30:17.737-05:00",
+        "valueQuantity": {
+          "value": 40.06,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-6ae7-346d1005dfba",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-6ae7-346d1005dfba",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "Leukocytes [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Leukocytes [#/volume] in Blood by Automated count"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 4.7578,
+          "unit": "10*3/uL",
+          "system": "http://unitsofmeasure.org",
+          "code": "10*3/uL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-18ed-222f1a9a2d2e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-18ed-222f1a9a2d2e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "789-8",
+              "display": "Erythrocytes [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Erythrocytes [#/volume] in Blood by Automated count"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 5.1071,
+          "unit": "10*6/uL",
+          "system": "http://unitsofmeasure.org",
+          "code": "10*6/uL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-ac3f-1e6088888278",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-ac3f-1e6088888278",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Hemoglobin [Mass/volume] in Blood"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 17.193,
+          "unit": "g/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-0997-a808718427e0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-0997-a808718427e0",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4544-3",
+              "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+            }
+          ],
+          "text": "Hematocrit [Volume Fraction] of Blood by Automated count"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 42.426,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-354e-c2c2c6ee2423",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-354e-c2c2c6ee2423",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "787-2",
+              "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count"
+            }
+          ],
+          "text": "MCV [Entitic mean volume] in Red Blood Cells by Automated count"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 92.847,
+          "unit": "fL",
+          "system": "http://unitsofmeasure.org",
+          "code": "fL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-652f-9b64ee194774",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-652f-9b64ee194774",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "785-6",
+              "display": "MCH [Entitic mass] by Automated count"
+            }
+          ],
+          "text": "MCH [Entitic mass] by Automated count"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 30.148,
+          "unit": "pg",
+          "system": "http://unitsofmeasure.org",
+          "code": "pg"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-8d2b-61c2ff9562c3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-8d2b-61c2ff9562c3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "786-4",
+              "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count"
+            }
+          ],
+          "text": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 33.675,
+          "unit": "g/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-127f-6bce00602f40",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-127f-6bce00602f40",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "788-0",
+              "display": "Erythrocyte [DistWidth] in Blood by Automated count"
+            }
+          ],
+          "text": "Erythrocyte [DistWidth] in Blood by Automated count"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 14.241,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-2bb1-f5e2fabeaa22",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-2bb1-f5e2fabeaa22",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelets [#/volume] in Blood by Automated count"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 249.29,
+          "unit": "10*3/uL",
+          "system": "http://unitsofmeasure.org",
+          "code": "10*3/uL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-262a-14612f69e8a4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-262a-14612f69e8a4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 124.8,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-09b0-46c9522faef7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-09b0-46c9522faef7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "Urea nitrogen [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Urea nitrogen [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 19.38,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-6824-42243f57ab81",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-6824-42243f57ab81",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Creatinine [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 2.862,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-34d1-7a4faa8f1f7e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-34d1-7a4faa8f1f7e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "17861-6",
+              "display": "Calcium [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Calcium [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 9.41,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-c3e9-a3e8748a26af",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-c3e9-a3e8748a26af",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Sodium [Moles/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 140.49,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-7ee0-a237874ad21f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-7ee0-a237874ad21f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Potassium [Moles/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 4.66,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-6d43-e66a04dd06b0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-6d43-e66a04dd06b0",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2075-0",
+              "display": "Chloride [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Chloride [Moles/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 110.64,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-e73a-1b6149686eb6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-e73a-1b6149686eb6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2028-9",
+              "display": "Carbon dioxide, total [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Carbon dioxide, total [Moles/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 22.88,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-f74e-0d9929c9f7a7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-f74e-0d9929c9f7a7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "33914-3",
+              "display": "Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M"
+            }
+          ],
+          "text": "Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 9.7641,
+          "unit": "mL/min",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL/min"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-f4c6-0c6c50d3bcb4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-f4c6-0c6c50d3bcb4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2885-2",
+              "display": "Protein [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Protein [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 6.2206,
+          "unit": "g/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-54ac-9170f392e8c3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-54ac-9170f392e8c3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "Albumin [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Albumin [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 4.2135,
+          "unit": "g/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-19e1-47e10b98a7e4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-19e1-47e10b98a7e4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "Bilirubin.total [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Bilirubin.total [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 13.367,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-0c4d-fd6844532993",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-0c4d-fd6844532993",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 63.065,
+          "unit": "U/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "U/L"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-f939-4c3ec57e0339",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-f939-4c3ec57e0339",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 29.245,
+          "unit": "U/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "U/L"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-2d51-5279a3d7b6f8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-2d51-5279a3d7b6f8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1920-8",
+              "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 35.897,
+          "unit": "U/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "U/L"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-a0d8-11a9336005bc",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-a0d8-11a9336005bc",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "19123-9",
+              "display": "Magnesium [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Magnesium [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 1.6652,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-c99c-9811fa0dbcbf",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-c99c-9811fa0dbcbf",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2777-1",
+              "display": "Phosphate [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Phosphate [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 3.1958,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-b270-097ff7b211e7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-b270-097ff7b211e7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "5902-2",
+              "display": "Prothrombin time (PT)"
+            }
+          ],
+          "text": "Prothrombin time (PT)"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 11.538,
+          "unit": "s",
+          "system": "http://unitsofmeasure.org",
+          "code": "s"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-1400-7d95e891fdb9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-1400-7d95e891fdb9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6301-6",
+              "display": "INR in Platelet poor plasma by Coagulation assay"
+            }
+          ],
+          "text": "INR in Platelet poor plasma by Coagulation assay"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 0.81738,
+          "unit": "{INR}",
+          "system": "http://unitsofmeasure.org",
+          "code": "{INR}"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-4627-3a15274e45a8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-4627-3a15274e45a8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3173-2",
+              "display": "aPTT in Blood by Coagulation assay"
+            }
+          ],
+          "text": "aPTT in Blood by Coagulation assay"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 39.902,
+          "unit": "s",
+          "system": "http://unitsofmeasure.org",
+          "code": "s"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-fe2f-13e1023de16d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-fe2f-13e1023de16d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2744-1",
+              "display": "pH of Arterial blood"
+            }
+          ],
+          "text": "pH of Arterial blood"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 6.8484,
+          "unit": "[pH]",
+          "system": "http://unitsofmeasure.org",
+          "code": "[pH]"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-97cc-770b5e3d8e2c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-97cc-770b5e3d8e2c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2019-8",
+              "display": "Carbon dioxide [Partial pressure] in Arterial blood"
+            }
+          ],
+          "text": "Carbon dioxide [Partial pressure] in Arterial blood"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 39.868,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-6565-2b1171fe4f4a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-6565-2b1171fe4f4a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2703-7",
+              "display": "Oxygen [Partial pressure] in Arterial blood"
+            }
+          ],
+          "text": "Oxygen [Partial pressure] in Arterial blood"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 86.802,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-aab1-46f501df8841",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-aab1-46f501df8841",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1960-4",
+              "display": "Bicarbonate [Moles/volume] in Arterial blood"
+            }
+          ],
+          "text": "Bicarbonate [Moles/volume] in Arterial blood"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 25.566,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-c752-f5e29c42c5e6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-c752-f5e29c42c5e6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-pulse-oximetry"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Arterial blood"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "59408-5",
+              "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+            }
+          ],
+          "text": "Oxygen saturation in Arterial blood"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 97,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-9c8e-b476a1ec5fd5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-9c8e-b476a1ec5fd5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2093-3",
+              "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 201.09,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-d577-767cd4def124",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-d577-767cd4def124",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2571-8",
+              "display": "Triglyceride [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Triglyceride [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 182.45,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-6530-0a67d02a80e8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-6530-0a67d02a80e8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "18262-6",
+              "display": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"
+            }
+          ],
+          "text": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 124.55,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-7be4-c8e14fea8ff8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-7be4-c8e14fea8ff8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2085-9",
+              "display": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-05T20:11:26-05:00",
+        "issued": "2019-07-05T20:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 40.06,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-e383-dab3e3cda227",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-e383-dab3e3cda227",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "Leukocytes [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Leukocytes [#/volume] in Blood by Automated count"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-06T08:11:26-05:00",
+        "issued": "2019-07-06T08:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 7.4881,
+          "unit": "10*3/uL",
+          "system": "http://unitsofmeasure.org",
+          "code": "10*3/uL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-f4bf-2b020b424a66",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-f4bf-2b020b424a66",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "789-8",
+              "display": "Erythrocytes [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Erythrocytes [#/volume] in Blood by Automated count"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-06T08:11:26-05:00",
+        "issued": "2019-07-06T08:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 4.4595,
+          "unit": "10*6/uL",
+          "system": "http://unitsofmeasure.org",
+          "code": "10*6/uL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-e960-f67bc36007b8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-e960-f67bc36007b8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Hemoglobin [Mass/volume] in Blood"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-06T08:11:26-05:00",
+        "issued": "2019-07-06T08:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 16.449,
+          "unit": "g/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-0101-6ae1a4cf36d4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-0101-6ae1a4cf36d4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4544-3",
+              "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+            }
+          ],
+          "text": "Hematocrit [Volume Fraction] of Blood by Automated count"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-06T08:11:26-05:00",
+        "issued": "2019-07-06T08:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 50.03,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-1b0d-d28c506e1135",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-1b0d-d28c506e1135",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "787-2",
+              "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count"
+            }
+          ],
+          "text": "MCV [Entitic mean volume] in Red Blood Cells by Automated count"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-06T08:11:26-05:00",
+        "issued": "2019-07-06T08:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 89.727,
+          "unit": "fL",
+          "system": "http://unitsofmeasure.org",
+          "code": "fL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-b0ce-3cbdfe64d0d5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-b0ce-3cbdfe64d0d5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "785-6",
+              "display": "MCH [Entitic mass] by Automated count"
+            }
+          ],
+          "text": "MCH [Entitic mass] by Automated count"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-06T08:11:26-05:00",
+        "issued": "2019-07-06T08:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 32.92,
+          "unit": "pg",
+          "system": "http://unitsofmeasure.org",
+          "code": "pg"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-83ac-d73eb971cc3a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-83ac-d73eb971cc3a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "786-4",
+              "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count"
+            }
+          ],
+          "text": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-06T08:11:26-05:00",
+        "issued": "2019-07-06T08:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 34.228,
+          "unit": "g/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-dba0-cd2c3a0cceb5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-dba0-cd2c3a0cceb5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "788-0",
+              "display": "Erythrocyte [DistWidth] in Blood by Automated count"
+            }
+          ],
+          "text": "Erythrocyte [DistWidth] in Blood by Automated count"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-06T08:11:26-05:00",
+        "issued": "2019-07-06T08:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 13.389,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-2d67-bf09593130e9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-2d67-bf09593130e9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelets [#/volume] in Blood by Automated count"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-06T08:11:26-05:00",
+        "issued": "2019-07-06T08:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 299.18,
+          "unit": "10*3/uL",
+          "system": "http://unitsofmeasure.org",
+          "code": "10*3/uL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-6756-28184192758a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-6756-28184192758a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-06T08:11:26-05:00",
+        "issued": "2019-07-06T08:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 124.8,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-328b-fc9fe0d5ecbb",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-328b-fc9fe0d5ecbb",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3094-0",
+              "display": "Urea nitrogen [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Urea nitrogen [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-06T08:11:26-05:00",
+        "issued": "2019-07-06T08:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 19.38,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-0862-6eb7c1ec0fe9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-0862-6eb7c1ec0fe9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Creatinine [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-06T08:11:26-05:00",
+        "issued": "2019-07-06T08:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 2.9204,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-5142-4f4254b42da9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-5142-4f4254b42da9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "17861-6",
+              "display": "Calcium [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Calcium [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-06T08:11:26-05:00",
+        "issued": "2019-07-06T08:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 9.41,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-53ed-37760318261e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-53ed-37760318261e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Sodium [Moles/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-06T08:11:26-05:00",
+        "issued": "2019-07-06T08:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 140.49,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-c0a8-230838fb475c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-c0a8-230838fb475c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Potassium [Moles/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-06T08:11:26-05:00",
+        "issued": "2019-07-06T08:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 4.66,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-c4e0-81edd4a2d0d4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-c4e0-81edd4a2d0d4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2075-0",
+              "display": "Chloride [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Chloride [Moles/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-06T08:11:26-05:00",
+        "issued": "2019-07-06T08:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 110.64,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-b361-a0be1f43272e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-b361-a0be1f43272e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2028-9",
+              "display": "Carbon dioxide, total [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Carbon dioxide, total [Moles/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-06T08:11:26-05:00",
+        "issued": "2019-07-06T08:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 22.88,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-7522-610476847e77",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-7522-610476847e77",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "33914-3",
+              "display": "Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M"
+            }
+          ],
+          "text": "Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-06T08:11:26-05:00",
+        "issued": "2019-07-06T08:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 9.3412,
+          "unit": "mL/min",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL/min"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-6ee0-8d7180e30e79",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-6ee0-8d7180e30e79",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2885-2",
+              "display": "Protein [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Protein [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-06T08:11:26-05:00",
+        "issued": "2019-07-06T08:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 6.436,
+          "unit": "g/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-59af-f2a4cfa252e8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-59af-f2a4cfa252e8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1751-7",
+              "display": "Albumin [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Albumin [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-06T08:11:26-05:00",
+        "issued": "2019-07-06T08:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 4.954,
+          "unit": "g/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-5273-9f9af45bd0ac",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-5273-9f9af45bd0ac",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1975-2",
+              "display": "Bilirubin.total [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Bilirubin.total [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-06T08:11:26-05:00",
+        "issued": "2019-07-06T08:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 11.309,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-8139-a64012850ce4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-8139-a64012850ce4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6768-6",
+              "display": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-06T08:11:26-05:00",
+        "issued": "2019-07-06T08:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 65.335,
+          "unit": "U/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "U/L"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-2839-d14790af702e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-2839-d14790af702e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-06T08:11:26-05:00",
+        "issued": "2019-07-06T08:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 19.612,
+          "unit": "U/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "U/L"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-f4a9-633f3ecc9a25",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-f4a9-633f3ecc9a25",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1920-8",
+              "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-06T08:11:26-05:00",
+        "issued": "2019-07-06T08:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 20.151,
+          "unit": "U/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "U/L"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-c3c6-657025c12261",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-c3c6-657025c12261",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "19123-9",
+              "display": "Magnesium [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Magnesium [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-06T08:11:26-05:00",
+        "issued": "2019-07-06T08:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 1.6551,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75337fc7-353e-d2f0-02c2-b4b4a5c06607",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75337fc7-353e-d2f0-02c2-b4b4a5c06607",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2777-1",
+              "display": "Phosphate [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Phosphate [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-20a9-f2469ee35236"
+        },
+        "encounter": {
+          "reference": "urn:uuid:75337fc7-353e-d2f0-2310-3a5b14f4d7c6"
+        },
+        "effectiveDateTime": "2019-07-06T08:11:26-05:00",
+        "issued": "2019-07-06T08:11:26.737-05:00",
+        "valueQuantity": {
+          "value": 2.8556,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "patient": {
+    "active": true,
+    "address": [
+      {
+        "city": "Bogotá",
+        "country": "CO",
+        "line": [
+          "Cra 15 #82-31"
+        ],
+        "state": "Cundinamarca"
+      }
+    ],
+    "birthDate": "1985-03-14",
+    "communication": [
+      {
+        "language": {
+          "coding": [
+            {
+              "code": "es",
+              "display": "Español",
+              "system": "urn:ietf:bcp:47"
+            }
+          ]
+        }
+      }
+    ],
+    "gender": "female",
+    "id": "64cce096-da17-4750-aec7-00a4b66cc3f7",
+    "maritalStatus": {
+      "coding": [
+        {
+          "code": "M",
+          "display": "Married",
+          "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
+        }
+      ]
+    },
+    "meta": {
+      "lastUpdated": "2026-04-03T00:10:23.848085+00:00",
+      "versionId": "MTc3NTE3NTAyMzg0ODA4NTAwMA"
+    },
+    "name": [
+      {
+        "family": "García",
+        "given": [
+          "María",
+          "Elena"
+        ],
+        "use": "official"
+      }
+    ],
+    "resourceType": "Patient",
+    "telecom": [
+      {
+        "system": "phone",
+        "use": "mobile",
+        "value": "+57 310 456 7890"
+      },
+      {
+        "system": "email",
+        "value": "maria.garcia@correo.com"
+      }
+    ]
+  },
+  "conditions": {
+    "entry": [
+      {
+        "fullUrl": "https://healthcare.googleapis.com/v1/projects/aegishealth-core/locations/us-central1/datasets/aegis-healthcare-data/fhirStores/clinical-records-r4/fhir/Condition/2e2cb909-eba9-4dd8-8dc0-164d478c343d",
+        "resource": {
+          "category": [
+            {
+              "coding": [
+                {
+                  "code": "encounter-diagnosis",
+                  "display": "Encounter Diagnosis",
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category"
+                }
+              ]
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "code": "active",
+                "display": "Active",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "code": "38341003",
+                "display": "Hipertensión arterial esencial",
+                "system": "http://snomed.info/sct"
+              }
+            ],
+            "text": "Hipertensión arterial esencial"
+          },
+          "id": "2e2cb909-eba9-4dd8-8dc0-164d478c343d",
+          "meta": {
+            "lastUpdated": "2026-04-03T00:10:27.993031+00:00",
+            "versionId": "MTc3NTE3NTAyNzk5MzAzMTAwMA"
+          },
+          "onsetDateTime": "2021-03-22",
+          "recordedDate": "2026-04-03",
+          "resourceType": "Condition",
+          "subject": {
+            "reference": "Patient/64cce096-da17-4750-aec7-00a4b66cc3f7"
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "code": "confirmed",
+                "display": "Confirmed",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://healthcare.googleapis.com/v1/projects/aegishealth-core/locations/us-central1/datasets/aegis-healthcare-data/fhirStores/clinical-records-r4/fhir/Condition/96ddad3c-9e28-4310-b895-c9c889975093",
+        "resource": {
+          "category": [
+            {
+              "coding": [
+                {
+                  "code": "encounter-diagnosis",
+                  "display": "Encounter Diagnosis",
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category"
+                }
+              ]
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "code": "active",
+                "display": "Active",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "code": "44054006",
+                "display": "Diabetes mellitus tipo 2",
+                "system": "http://snomed.info/sct"
+              }
+            ],
+            "text": "Diabetes mellitus tipo 2"
+          },
+          "id": "96ddad3c-9e28-4310-b895-c9c889975093",
+          "meta": {
+            "lastUpdated": "2026-04-03T00:10:27.770342+00:00",
+            "versionId": "MTc3NTE3NTAyNzc3MDM0MjAwMA"
+          },
+          "onsetDateTime": "2024-05-03",
+          "recordedDate": "2026-04-03",
+          "resourceType": "Condition",
+          "subject": {
+            "reference": "Patient/64cce096-da17-4750-aec7-00a4b66cc3f7"
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "code": "confirmed",
+                "display": "Confirmed",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ],
+    "link": [
+      {
+        "relation": "search",
+        "url": "https://healthcare.googleapis.com/v1/projects/aegishealth-core/locations/us-central1/datasets/aegis-healthcare-data/fhirStores/clinical-records-r4/fhir/Condition/?subject=Patient%2F64cce096-da17-4750-aec7-00a4b66cc3f7"
+      },
+      {
+        "relation": "first",
+        "url": "https://healthcare.googleapis.com/v1/projects/aegishealth-core/locations/us-central1/datasets/aegis-healthcare-data/fhirStores/clinical-records-r4/fhir/Condition/?subject=Patient%2F64cce096-da17-4750-aec7-00a4b66cc3f7"
+      },
+      {
+        "relation": "self",
+        "url": "https://healthcare.googleapis.com/v1/projects/aegishealth-core/locations/us-central1/datasets/aegis-healthcare-data/fhirStores/clinical-records-r4/fhir/Condition/?subject=Patient%2F64cce096-da17-4750-aec7-00a4b66cc3f7"
+      }
+    ],
+    "resourceType": "Bundle",
+    "total": 2,
+    "type": "searchset"
+  },
+  "observations": {
+    "link": [
+      {
+        "relation": "search",
+        "url": "https://healthcare.googleapis.com/v1/projects/aegishealth-core/locations/us-central1/datasets/aegis-healthcare-data/fhirStores/clinical-records-r4/fhir/Observation/?subject=Patient%2F64cce096-da17-4750-aec7-00a4b66cc3f7"
+      },
+      {
+        "relation": "first",
+        "url": "https://healthcare.googleapis.com/v1/projects/aegishealth-core/locations/us-central1/datasets/aegis-healthcare-data/fhirStores/clinical-records-r4/fhir/Observation/?subject=Patient%2F64cce096-da17-4750-aec7-00a4b66cc3f7"
+      },
+      {
+        "relation": "self",
+        "url": "https://healthcare.googleapis.com/v1/projects/aegishealth-core/locations/us-central1/datasets/aegis-healthcare-data/fhirStores/clinical-records-r4/fhir/Observation/?subject=Patient%2F64cce096-da17-4750-aec7-00a4b66cc3f7"
+      }
+    ],
+    "resourceType": "Bundle",
+    "total": 0,
+    "type": "searchset"
+  },
+  "medications": {
+    "link": [
+      {
+        "relation": "search",
+        "url": "https://healthcare.googleapis.com/v1/projects/aegishealth-core/locations/us-central1/datasets/aegis-healthcare-data/fhirStores/clinical-records-r4/fhir/MedicationRequest/?subject=Patient%2F64cce096-da17-4750-aec7-00a4b66cc3f7"
+      },
+      {
+        "relation": "first",
+        "url": "https://healthcare.googleapis.com/v1/projects/aegishealth-core/locations/us-central1/datasets/aegis-healthcare-data/fhirStores/clinical-records-r4/fhir/MedicationRequest/?subject=Patient%2F64cce096-da17-4750-aec7-00a4b66cc3f7"
+      },
+      {
+        "relation": "self",
+        "url": "https://healthcare.googleapis.com/v1/projects/aegishealth-core/locations/us-central1/datasets/aegis-healthcare-data/fhirStores/clinical-records-r4/fhir/MedicationRequest/?subject=Patient%2F64cce096-da17-4750-aec7-00a4b66cc3f7"
+      }
+    ],
+    "resourceType": "Bundle",
+    "total": 0,
+    "type": "searchset"
+  },
+  "encounters": {
+    "link": [
+      {
+        "relation": "search",
+        "url": "https://healthcare.googleapis.com/v1/projects/aegishealth-core/locations/us-central1/datasets/aegis-healthcare-data/fhirStores/clinical-records-r4/fhir/Encounter/?subject=Patient%2F64cce096-da17-4750-aec7-00a4b66cc3f7"
+      },
+      {
+        "relation": "first",
+        "url": "https://healthcare.googleapis.com/v1/projects/aegishealth-core/locations/us-central1/datasets/aegis-healthcare-data/fhirStores/clinical-records-r4/fhir/Encounter/?subject=Patient%2F64cce096-da17-4750-aec7-00a4b66cc3f7"
+      },
+      {
+        "relation": "self",
+        "url": "https://healthcare.googleapis.com/v1/projects/aegishealth-core/locations/us-central1/datasets/aegis-healthcare-data/fhirStores/clinical-records-r4/fhir/Encounter/?subject=Patient%2F64cce096-da17-4750-aec7-00a4b66cc3f7"
+      }
+    ],
+    "resourceType": "Bundle",
+    "total": 0,
+    "type": "searchset"
+  },
+  "procedures": {
+    "link": [
+      {
+        "relation": "search",
+        "url": "https://healthcare.googleapis.com/v1/projects/aegishealth-core/locations/us-central1/datasets/aegis-healthcare-data/fhirStores/clinical-records-r4/fhir/Procedure/?subject=Patient%2F64cce096-da17-4750-aec7-00a4b66cc3f7"
+      },
+      {
+        "relation": "first",
+        "url": "https://healthcare.googleapis.com/v1/projects/aegishealth-core/locations/us-central1/datasets/aegis-healthcare-data/fhirStores/clinical-records-r4/fhir/Procedure/?subject=Patient%2F64cce096-da17-4750-aec7-00a4b66cc3f7"
+      },
+      {
+        "relation": "self",
+        "url": "https://healthcare.googleapis.com/v1/projects/aegishealth-core/locations/us-central1/datasets/aegis-healthcare-data/fhirStores/clinical-records-r4/fhir/Procedure/?subject=Patient%2F64cce096-da17-4750-aec7-00a4b66cc3f7"
+      }
+    ],
+    "resourceType": "Bundle",
+    "total": 0,
+    "type": "searchset"
+  },
+  "allergies": {
+    "link": [
+      {
+        "relation": "search",
+        "url": "https://healthcare.googleapis.com/v1/projects/aegishealth-core/locations/us-central1/datasets/aegis-healthcare-data/fhirStores/clinical-records-r4/fhir/AllergyIntolerance/?patient=Patient%2F64cce096-da17-4750-aec7-00a4b66cc3f7"
+      },
+      {
+        "relation": "first",
+        "url": "https://healthcare.googleapis.com/v1/projects/aegishealth-core/locations/us-central1/datasets/aegis-healthcare-data/fhirStores/clinical-records-r4/fhir/AllergyIntolerance/?patient=Patient%2F64cce096-da17-4750-aec7-00a4b66cc3f7"
+      },
+      {
+        "relation": "self",
+        "url": "https://healthcare.googleapis.com/v1/projects/aegishealth-core/locations/us-central1/datasets/aegis-healthcare-data/fhirStores/clinical-records-r4/fhir/AllergyIntolerance/?patient=Patient%2F64cce096-da17-4750-aec7-00a4b66cc3f7"
+      }
+    ],
+    "resourceType": "Bundle",
+    "total": 0,
+    "type": "searchset"
+  },
+  "communications": {
+    "link": [
+      {
+        "relation": "search",
+        "url": "https://healthcare.googleapis.com/v1/projects/aegishealth-core/locations/us-central1/datasets/aegis-healthcare-data/fhirStores/clinical-records-r4/fhir/Communication/?subject=Patient%2F64cce096-da17-4750-aec7-00a4b66cc3f7"
+      },
+      {
+        "relation": "first",
+        "url": "https://healthcare.googleapis.com/v1/projects/aegishealth-core/locations/us-central1/datasets/aegis-healthcare-data/fhirStores/clinical-records-r4/fhir/Communication/?subject=Patient%2F64cce096-da17-4750-aec7-00a4b66cc3f7"
+      },
+      {
+        "relation": "self",
+        "url": "https://healthcare.googleapis.com/v1/projects/aegishealth-core/locations/us-central1/datasets/aegis-healthcare-data/fhirStores/clinical-records-r4/fhir/Communication/?subject=Patient%2F64cce096-da17-4750-aec7-00a4b66cc3f7"
+      }
+    ],
+    "resourceType": "Bundle",
+    "total": 0,
+    "type": "searchset"
+  }
+}

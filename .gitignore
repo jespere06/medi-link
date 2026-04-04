@@ -39,3 +39,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+auth0-key.json
+
+# Local data & outputs
+/output/
+/data/logs/
+/docs/project_scan.txt
+project_scan.txt
+
+# Large binaries
+/bin/
